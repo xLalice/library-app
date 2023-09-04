@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    padding: 20px 40px;
+    flex-basis: 30%;
+}
+
+.card > h2,
+.card > button{
+    font-weight: bold;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.author {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.pages {
+    font-size: 1rem;
+    margin-bottom: auto;
+}
+
+.card > button {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.removeButton {
+    background-color: #eee;
+}

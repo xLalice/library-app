@@ -1,0 +1,61 @@
+
+
+main {
+    width: 100%;
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.books-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+main > button {
+    grid-column: 1/-1;
+}
+
+nav {
+    display: flex;
+    color: white;
+    background-color: #222831;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 40px 120px;
+}
+
+nav > h1 {
+    font-size: 2rem;
+}
+
+nav > button {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+nav > button:hover {
+    background-color: #CCC;
+}
+
+.library-container {
+    height: 100%;
+}
+
+.book-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.book-form > input {
+    padding: 10px;
+}
+
+.book-form > button {
+    background-color: lightgreen;
+    border-radius: 10px;
+}
